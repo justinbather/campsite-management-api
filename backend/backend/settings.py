@@ -139,7 +139,7 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 # White listing localhost port 3000 for react
 CORS_ORIGIN_WHITELIST = (
-    'http://localhost:3000',
+    'campsite-management.netlify.app',
 )
 
 CSRF_COOKIE_NAME = "XCSRF-TOKEN"
