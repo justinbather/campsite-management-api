@@ -126,7 +126,7 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/4.1/howto/static-files/
 
 STATIC_URL = 'static/'
-STATICFILES_DIRS = [os.path.join(BASE_DIR, 'backend/')]
+STATICFILES_DIRS = [os.path.join(BASE_DIR, 'assets/', 'static/')]
 
 MEDIA_URL = 'assets/site-images/'
 MEDIA_ROOT = os.path.join(BASE_DIR, 'backend/')
@@ -139,7 +139,7 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 # White listing localhost port 3000 for react
 CORS_ORIGIN_WHITELIST = (
-    'campsite-management.netlify.app',
+    'http://campsite-management.netlify.app',
 )
 
 CSRF_COOKIE_NAME = "XCSRF-TOKEN"
