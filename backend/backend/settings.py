@@ -30,7 +30,7 @@ SECRET_KEY = 'django-insecure-a)_vhnfjvo%)&pz35ic$8@4k5&o69@6qtqug$^2ej+ehix21$$
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['campsite-management-api.herokuapp.com']
+ALLOWED_HOSTS = ['campsite-management-api-27012b8fbddf.herokuapp.com/']
 
 
 # Application definition
