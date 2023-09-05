@@ -45,6 +45,7 @@ INSTALLED_APPS = [
     'booking_api',
     'corsheaders',
     'rest_framework',
+    'storages'
 ]
 
 MIDDLEWARE = [
