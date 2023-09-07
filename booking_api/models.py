@@ -53,10 +53,12 @@ class Amenities(models.Model):
 class Site(models.Model):
     PULL_THROUGH = "Pull Through"
     BACK_IN = "Back In"
+    TENT = "Tent"
 
     SITE_TYPES = [
         (PULL_THROUGH, _("Pull Through")),
         (BACK_IN, _("Back In")),
+        (TENT, _("Tent")),
     ]
 
 
