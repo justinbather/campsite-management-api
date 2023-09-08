@@ -23,7 +23,7 @@ class SiteSerializer(serializers.ModelSerializer):
 
     class Meta:
         model = Site
-        fields = ('id', 'name', 'park_id', 'amenities', 'price', 'thumbnail')
+        fields = ('id', 'name', 'park_id', 'site_type', 'amenities', 'price', 'thumbnail')
 
 class SiteBookingSerializer(serializers.ModelSerializer):
 
