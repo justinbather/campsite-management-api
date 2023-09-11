@@ -214,7 +214,7 @@ class ParkView(APIView):
 
 FRONTEND_CHECKOUT_SUCCESS_URL = settings.CHECKOUT_SUCCESS_URL
 FRONTEND_CHECKOUT_FAILED_URL = settings.CHECKOUT_FAILED_URL
-stripe.api_key = str(settings.STRIPE_API_TEST_SECRET)
+stripe.api_key = str(settings.STRIPE_API_PROD_SECRET)
 
 class StripeCheckoutSession(APIView):
     def post(self, request, *args, **kwargs):
