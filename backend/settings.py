@@ -180,7 +180,7 @@ REST_FRAMEWORK = {'DEFAULT_PERMISSION_CLASSES':['rest_framework.permissions.Allo
 
 STRIPE_API_TEST_SECRET = os.environ.get('STRIPE_API_TEST_SECRET')
 STRIPE_API_PROD_SECRET = os.environ.get('STRIPE_API_PROD_SECRET')
-CHECKOUT_SUCCESS_URL = 'http://localhost:3000/bookings/success/'
-CHECKOUT_FAILED_URL = 'http://localhost:3000/bookings/failed/'
+CHECKOUT_SUCCESS_URL = 'https://campsite-management.netlify.app/bookings/success/'
+CHECKOUT_FAILED_URL = 'https://campsite-management.netlify.app/bookings/failed/'
 
 WEBHOOK_SECRET = os.environ.get('WEBHOOK_SECRET')
