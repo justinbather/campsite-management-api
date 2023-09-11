@@ -179,7 +179,7 @@ AUTH_USER_MODEL = 'booking_api.User'
 REST_FRAMEWORK = {'DEFAULT_PERMISSION_CLASSES':['rest_framework.permissions.AllowAny']}
 
 STRIPE_API_TEST_SECRET = os.environ.get('STRIPE_API_TEST_SECRET')
-STIPE_API_PROD_SECRET = os.environ.get('STRIPE_API_PROD_SECRET')
+STRIPE_API_PROD_SECRET = os.environ.get('STRIPE_API_PROD_SECRET')
 CHECKOUT_SUCCESS_URL = 'http://localhost:3000/bookings/success/'
 CHECKOUT_FAILED_URL = 'http://localhost:3000/bookings/failed/'
 
